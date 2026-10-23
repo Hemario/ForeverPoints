@@ -1,0 +1,7 @@
+## Interface: 16001
+## Title: Forever Points
+## Notes: After combat and level up, reminds you of unspent talent points and legacy points.
+## Author: Hemario
+## Version: 16001.1
+
+ForeverPoints.lua
