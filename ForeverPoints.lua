@@ -76,11 +76,12 @@ local frame = CreateFrame("Frame")
 frame:RegisterEvent("PLAYER_REGEN_ENABLED")   -- fires when you leave combat
 frame:RegisterEvent("PLAYER_ENTERING_WORLD") -- after loading screen
 frame:RegisterEvent("PLAYER_LEVEL_UP")   -- fires when you level up
+frame:RegisterEvent("ACHIEVEMENT_EARNED")   -- fires when achievement is earned and possible a legacy point becomes available
 frame:RegisterEvent("ADDON_LOADED")
 frame:SetScript("OnEvent", function(self, event, arg1, ...)
 	-- Print points after combat or leveling up
 	-- TODO: add an event for an achievement maybe?
-	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_LEVEL_UP" then
+	if event == "PLAYER_REGEN_ENABLED" or event == "PLAYER_LEVEL_UP" or event == "ACHIEVEMENT_EARNED" then
 		ScheduleCheck()
 	end
 	
