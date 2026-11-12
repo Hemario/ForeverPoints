@@ -4,6 +4,7 @@ In WOW Forever, display a notification message when you have unspent talent or l
 Notification is shown:
 - after leaving combat
 - after gaining a level up
+- after earning an achievement
 - loading into the game
 but NEVER during combat
 
