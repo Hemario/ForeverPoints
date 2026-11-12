@@ -2,6 +2,6 @@
 ## Title: Forever Points
 ## Notes: After combat and level up, reminds you of unspent talent points and legacy points.
 ## Author: Hemario
-## Version: 16001.1
+## Version: 16001.2
 
 ForeverPoints.lua
